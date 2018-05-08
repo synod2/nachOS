@@ -1,1 +1,2 @@
-./nachos-4.0/code/userprog/nachos ‐e $1
+# /bin/sh/
+./nachos-4.0/code/userprog/nachos -e $1
