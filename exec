@@ -1,2 +1,0 @@
-# /bin/sh/
-./nachos-4.0/code/userprog/nachos -e $1
