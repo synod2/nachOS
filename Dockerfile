@@ -3,7 +3,7 @@ LABEL   maintainer="Maojui <maojui0427@gmail.com>" \
         version="0.0.1" \
         date="2018-05-08" 
 # ============ Start Installation  ============
-RUN apt update && apt install -y \
+RUN apt-get update && apt-get install -y \
     ed \
     g++ \
     csh \
