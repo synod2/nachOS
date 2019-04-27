@@ -1,3 +1,4 @@
+#docker build -t -no-cache nachos . 
 FROM i386/ubuntu:trusty
 LABEL   maintainer="synod2 <synod2@naver.com>" \
         version="0.0.1" \
