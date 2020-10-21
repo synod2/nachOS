@@ -8,6 +8,10 @@ docker를 이용한 가상 환경 구축하고 그 위헤 NachOS 환경 구축�
 
 환경 구축에 들이는 시간과 자원을 최소화 하고, 최신 ubuntu 위에 구성할 수 있게 하였음. 
 
+참고한 기존 원본 프로젝트도 우분투 14.04 환경위에 진행되었어서 이를 최신화함. 
+
+원 저작자 : https://github.com/maojui
+
 환경 : i386/ubuntu 18.04
 
 도커 설치 : ```docker build --no-cache -t nachos .```
