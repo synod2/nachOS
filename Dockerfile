@@ -13,9 +13,9 @@ RUN apt-get update && apt-get install -y \
     wget \
     && rm -rf /var/lib/apt/lists/*
 # Get the nashOS source
-RUN wget https://github.com/synod2/nachOS/blob/master/nachos-4.0.tar.gz?raw=true -O nachos-4.0.tar.gz
-RUN wget https://github.com/synod2/nachOS/blob/master/nachos-lib.tar?raw=true -O nachos-lib.tar
-RUN wget https://github.com/synod2/nachOS/blob/master/binutils-2.11.2.tar.gz?raw=true -O binutils-2.11.2.tar.gz
+RUN wget https://github.com/synod2/nachOS-dockerlize/blob/master/nachos-4.0.tar.gz?raw=true -O nachos-4.0.tar.gz
+RUN wget https://github.com/synod2/nachOS-dockerlize/blob/master/nachos-lib.tar?raw=true -O nachos-lib.tar
+RUN wget https://github.com/synod2/nachOS-dockerlize/blob/master/binutils-2.11.2.tar.gz?raw=true -O binutils-2.11.2.tar.gz
 
 # Unzip
 RUN tar -zxvf nachos-4.0.tar.gz && tar -xvf nachos-lib.tar
